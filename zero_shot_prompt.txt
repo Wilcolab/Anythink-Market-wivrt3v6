@@ -1,0 +1,12 @@
+Information about the current repository. You can use this information when you need to calculate diffs or compare changes with the default branch:
+Repository name: Anythink-Market-wivrt3v6
+Owner: Wilcolab
+Current branch: main
+Default branch: main
+
+function toSnakeCase(text) {
+    return text
+        .replace(/([a-z])([A-Z])/g, '$1_$2')
+        .replace(/[\s\-]+/g, '_')
+        .toLowerCase();
+}
